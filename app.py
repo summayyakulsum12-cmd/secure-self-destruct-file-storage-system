@@ -4,6 +4,11 @@ from utils.encrypt import encrypt_file, decrypt_file
 from flask import render_template
 import json
 import csv
+import sys
+import os
+
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 DB_FILE = "database.csv"
 
