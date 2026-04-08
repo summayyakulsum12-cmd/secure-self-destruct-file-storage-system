@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure File Storage</title>
+</head>
+<body>
+    <h2>Upload File</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required><br><br>
+        Expiry Time (seconds): <input type="number" name="expiry" required><br><br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
