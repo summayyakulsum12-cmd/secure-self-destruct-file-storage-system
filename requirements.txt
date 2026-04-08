@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 flask
 cryptography
 requests
 gunicorn
-=======
-flask
-cryptography
-requests
-gunicorn
->>>>>>> 4bffbe78ed3f8abe5aaaf8d47ae255f3d3442c0b
 pandas
